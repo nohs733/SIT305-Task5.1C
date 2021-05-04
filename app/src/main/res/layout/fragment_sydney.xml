@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SydneyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="358dp"
+            android:src="@drawable/sydney" />
+
+        <TextView
+            android:id="@+id/mel_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sydney"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mel_detail"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Sydney is the capital city of the state of New South Wales, and the most populous city in Australia and Oceania."
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</FrameLayout>

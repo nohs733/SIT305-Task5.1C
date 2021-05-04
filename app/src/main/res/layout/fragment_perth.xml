@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PerthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="358dp"
+            android:src="@drawable/perth" />
+
+        <TextView
+            android:id="@+id/mel_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Perth"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mel_detail"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Perth is the capital and largest city of the Australian state of Western Australia. it is Australia's fourth-most populous city, with a population of 2.1 million living in Greater Perth in 2018."
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</FrameLayout>

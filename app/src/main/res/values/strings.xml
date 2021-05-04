@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Task5.1C</string>
+
+    <string-array name="city_name">
+        <item>Melbourne</item>
+        <item>Sydney</item>
+        <item>Brisbane</item>
+        <item>Perth</item>
+    </string-array>
+
+    <string-array name="city_description">
+        <item>This is Melbourne</item>
+        <item>This is Sydney</item>
+        <item>This is Brisbane</item>
+        <item>This is Perth</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
